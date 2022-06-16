@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+    <script async src="calculator.js"></script>
+</head>
+<body>
+        <input style="width:30%;"class="button"type="text"id="userinput" name="result"value=""><br>
+        <input style="width:10%;"class="button"type="button" value="+"onclick="result('+')"/>
+        <input style="width:10%;"class="button"type="button" value="-"onclick="result('-')"/>
+        <input style="width:10%;"class="button"type="button" value="*"onclick="result('*')"/><br>
+        <input style="width:10%;"class="button"type="button" value="/"onclick="result('/')"/>
+        <input style="width:10%;"class="button"type="submit"value="="onclick="a()"/>
+        
+</body>
